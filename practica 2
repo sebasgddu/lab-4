@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+// DECLARACION DE VARIABLES
+string nombredelcliente;
+double montodelacompra;
+string categoriadedescuento;
+double porcentaje;
+double descuentoaplicado;
+double totaldecompra;
+// ENTRADA DE DATOS
+cout << "nombre del cliente";
+cin >> nombredelcliente;
+cout<< "montodelacompra";
+cin>> montodelacompra;
+// PROCESO
+if (montodecompra<=100{
+    precioporconsumo=1.20;
+    categoriadeconsumo="consumomínimo";}
+else if (15<consumom3 && consumom3<=35){
+    precioporconsumo=2.50;
+    categoriadeconsumo="Consumodoméstico";}
+else if (35<consumom3 && consumom3 <=70){
+    precioporconsumo=4.00;
+    categoriadeconsumo="consumocomercial";}
+else if (consumom3>70){
+    precioporconsumo=6.50;
+    categoriadeconsumo="Consumoalto/consumoindustrial";}
+total=(precioporconsumo*consumom3)+preciofijo;
+// Salida de datos
+cout <<nombredelcliente<< endl;
+cout <<categoriadeconsumo<< endl ;
+cout <<total<< endl;
+    return 0;
+}
